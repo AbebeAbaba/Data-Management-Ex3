@@ -12,3 +12,8 @@ for i in range(2):
     sum += dice[i]
 
 print("Total value: " + str(sum))
+
+if sum > 7:
+    print("You won")
+else:
+    print("You lose")
