@@ -3,6 +3,10 @@ import random
 sum = 0
 dice = []
 
+name = input("What is your name?\n> ")
+print("Hello, " + name + "!")
+
+
 print("Rolling dice...")
 
 for i in range(2):
