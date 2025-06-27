@@ -1,0 +1,14 @@
+import random
+
+sum = 0
+dice = []
+
+print("Rolling dice...")
+
+for i in range(2):
+    roll = random.randint(1, 6)
+    dice.append(roll)
+    print("Dice " + str(i) + ": " + str(dice[i]))
+    sum += dice[i]
+
+print("Total value: " + str(sum))
